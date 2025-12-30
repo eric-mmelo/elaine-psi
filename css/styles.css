@@ -1,0 +1,245 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header e Navbar */
+.logo {
+    margin: 15px;
+    width: 50px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #28104e;
+}
+
+.nav-left,
+.nav-center,
+.nav-right {
+    flex: 1 2 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left {
+    justify-content: flex-start;
+}
+
+.nav-center {
+    justify-content: center;
+}
+
+.nav-right {
+    justify-content: flex-end;
+    min-width: 50px;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-left: 3rem;
+    padding-top: 5px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    color: #a8a8a8;
+}
+
+/* Main Banner */
+@font-face {
+    font-family: Cherolina;
+    src: url(Cherolina.ttf);
+}
+
+.main {
+    background-color: #deacf5;
+}
+
+
+.main-banner {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.img-1 img {
+    width: 850px;
+    height: 650px;
+    margin: 20px;
+    margin-left: 40px;
+    border: 5px solid;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.main-banner ul {
+    margin: 0 auto;
+    display: grid;
+}
+
+.main-banner li {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-banner h1{
+    font-family: Cherolina;
+    display: block;
+    font-size: 100px;
+    padding-top: 100px;
+}
+
+.main-banner h2{
+    font-family: Cherolina;
+    font-size: 100px;
+}
+
+@font-face {
+    font-family: Neue;
+    src: url(BebasNeue-Regular.otf);
+}
+
+.btn-whats {
+    font-family: Neue;
+    font-size: larger;
+    font-weight: bold;
+    border-style: inherit;
+    color: #fff;
+    padding: 15px 20px;
+    background-color: #128c7e;
+    border-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+
+.btn-whats:hover {
+    color: #128c7e;
+    background-color: #fff;
+}
+
+/* Serviços */
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Medium.ttf);
+}
+.services {
+    margin-top: 100px;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.img-sessao img {
+    width: 650px;
+    height: 650px;
+    margin: 20px;
+    margin-right: 40px;
+    border: 5px solid;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.services ul {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    gap: 73px; 
+}
+
+.services li {
+    color: #10002B;
+    background-color: #b59be2;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 2.5rem;
+}
+
+.services h3 {
+    font-family: Neue;
+    font-size: 33px;
+    margin-bottom: 25px;
+}
+
+.services p {
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sobre {
+    margin-top: 100px;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.img-psicanalise img {
+    width: 850px;
+    height: 650px;
+    margin: 20px;
+    margin-left: 40px;
+    border: 5px solid;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.sobre ul {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+}
+
+.sobre li {
+    width: 90%;
+    height: 100%;
+    color: #10002B;
+    background-color: #b59be2;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    border-radius: 15px;
+    margin: 2.5rem;
+}
+
+.sobre h2 {
+    font-family: Neue;
+    font-size: 33px;
+    margin-bottom: 25px;
+}
+
+.sobre p {
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
