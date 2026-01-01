@@ -370,12 +370,14 @@
 }
 
 /* Responsive Design */
-@media (max-width: 1031px) {
+@media (max-width: 1351px) {
     .hero-text h1 {
-        font-size: 4rem;
+        font-size: 5rem;
+        text-align: center;
     }
     .hero-text h2 {
-        font-size: 4rem;
+        font-size: 4.5rem;
+        text-align: center;
     }
     .menu {
         display: none;
