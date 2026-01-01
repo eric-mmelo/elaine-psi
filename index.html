@@ -3,79 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Elaine Magalhães Psicóloga</title>
+    <title>Elaine Magalhães Psicóloga - Atendimento Online e Presencial</title>
     <link rel="shortcut icon" href="img/psi-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');</style>
 </head>
+
 <body>
-    <div class="container">
-        <header class="header">
-            <nav class="navbar-container">
-                <div class="nav-left">
-                    <img src="img/psi-logo.png" class="logo" />
-                </div>
-
-                <div class="nav-center">
-                    <div class="menu">
-                        <a href="#">Home</a>
-                        <a href="#">Serviços</a>
-                        <a href="#">Sobre</a>  
-                        <a href="#">Contato</a>
-                    </div>
-                </div>
-
-                <div class="nav-right"></div>
-            </nav>
-        </header>
-        <main class="main">
-            <div class="main-banner">
-                <div class="img-1">
-                    <img src="img/psi-logo.png" alt="Psi">
-                </div>
-                <ul>
-                    <li>
-                        <h1>Elaine Magalhães</h1>
-                        <h2>Psicóloga</h2>
-                    </li>
-                </ul>
+     <!-- Header -->
+    <header class="header">
+        <nav class="navbar-container">
+            <div class="logo-container">
+                <img src="img/Logo-psicologia-branco-fundo-transparente.png" class="logo" alt="Logo Psicologia">
+                <span class="logo-text">Elaine Magalhães</span>
             </div>
-                <button class="btn-whats">
-                    <p><i class="fa fa-whatsapp"></i> Agende sua consulta
-                    </p>
-                </button>
-                <section class="services">
-                    <ul>
-                        <li>
-                            <h3>Atendimento Online</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusamus quod, sapiente et similique, harum suscipit iste alias magnam quo earum voluptates tenetur. Exercitationem quae tenetur dolorum natus alias aliquam!</p>
-                        </li>
-                        <li>
-                            <h3>Atendimento Presencial</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum eveniet officia consequuntur sit obcaecati laborum temporibus iusto ullam vel labore sed, magnam repellendus animi, accusamus, laboriosam expedita enim dicta exercitationem.</p>
-                        </li>
-                        <li>
-                            <h3>Outro Serviço</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequatur reiciendis, incidunt quae laborum dolorum a laudantium alias nostrum expedita, error, doloribus possimus architecto. Provident aliquam non laboriosam dolor exercitationem?</p>
-                        </li>
-                    </ul>
-                    <div class="img-sessao">
-                        <img src="img/sessao-de-psicoterapia-paciente.jpg" alt="Sessão online de psicoterapia">
+            
+            <div class="menu" id="menu">
+                <a href="#home">Home</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </div>
+
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Elaine Magalhães</h1>
+                <h2>Psicóloga</h2>
+                <p>Cuidando da sua saúde mental com acolhimento, empatia e profissionalismo. Atendimento online e presencial para adolescentes e adultos.</p>
+                <a href="https://wa.me/5541999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." class="btn-whats" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Agende sua Consulta
+                </a>
+            </div>
+            <div class="hero-image">
+                <img src="img/psi-logo.png" alt="Psicologia">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+        <h2 class="section-title">Serviços</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fa fa-laptop"></i>
                     </div>
-                </section>
-                <section class="sobre">
-                    <div class="img-psicanalise">
-                        <img src="img/freud.jpg" alt="Sigmund Freud Terapia Psicanálise">
+                    <h3>Atendimento Online</h3>
+                </div>
+                <p>Terapia por videochamada com toda a segurança e confidencialidade. Atendimento flexível e acessível de onde você estiver, mantendo a mesma qualidade do presencial.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fa fa-couch"></i>
                     </div>
-                    <ul>
-                        <li>
-                            <h2>Sobre Mim</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quis alias similique veniam dolorum ea placeat quibusdam, dicta illum asperiores deleniti vitae temporibus repellendus! Nulla earum voluptatibus nam illum delectus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis reiciendis incidunt illo, dignissimos tempore sit delectus necessitatibus repudiandae voluptatum doloribus, non at nemo veniam veritatis! Animi ut commodi voluptatum recusandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam et ullam hic placeat iure eius voluptatem sit aut repellat nesciunt, error porro, dolor eos voluptas voluptates dicta fuga? Illum, officia.</p>
-                        </li>
-                    </ul>
-                </section>            
-        </main>
-    </div>
+                    <h3>Atendimento Presencial</h3>
+                </div>
+                <p>Consultório acolhedor e confortável em Curitiba. Ambiente seguro e sigiloso para você se sentir à vontade durante as sessões de psicoterapia.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <h3>Terapia Individual</h3>
+                </div>
+                <p>Acompanhamento personalizado para adolescentes e adultos. Trabalho focado em ansiedade, depressão, autoestima, relacionamentos e desenvolvimento pessoal.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="img/freud.jpg" alt="Psicoterapia">
+            </div>
+            <div class="about-content">
+                <h2>Sobre Mim</h2>
+                <p>Olá! Sou Elaine Magalhães, psicóloga formada e registrada no CRP. Com anos de experiência em atendimento clínico, dedico-me a ajudar pessoas a encontrarem equilíbrio emocional e bem-estar.</p>
+                <p>Minha abordagem terapêutica é humanizada e acolhedora, respeitando o tempo e as necessidades de cada pessoa. Acredito que a terapia é um espaço seguro para autoconhecimento e transformação.</p>
+                <p>Trabalho com base em evidências científicas e atualização constante, oferecendo um atendimento ético e profissional. Será um prazer acompanhá-lo(a) nessa jornada de cuidado e crescimento pessoal.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <h2>Pronto para começar?</h2>
+        <p>Entre em contato e agende sua primeira consulta</p>
+        <a href="https://wa.me/5541999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." class="btn-whats" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+            Fale Comigo no WhatsApp
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Elaine Magalhães - Psicóloga | CRP: XXXXX/XX</p>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5541988763454?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta?" class="floating-whatsapp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
     
+    <script src="js/scripts.js"></script>
 </body>
 </html>
